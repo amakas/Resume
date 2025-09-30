@@ -8,7 +8,7 @@
   scroll-behavior: smooth;
 }
 html {
-  font-size: 62.5%;
+  font-size: 75%;
 }
 body {
   font-family: "Lusitana", serif;
@@ -48,7 +48,7 @@ main {
   padding: 20px;
   width: 100%;
   max-width: 1200px;
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 .navbar {
@@ -81,7 +81,7 @@ main {
 
 footer {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   background: hsla(263, 94%, 14%, 0.868);
   width: 100%;
   font-size: 1.8rem;
@@ -209,7 +209,7 @@ hr {
     background-color: rgb(1, 50, 93);
     width: 150px;
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 10px;
     padding: 10px;
     border: 2px solid white;
@@ -260,6 +260,10 @@ hr {
   }
   & a {
     height: 60%;
+    width: auto;
+  }
+  & .less {
+    width: 90%;
   }
 }
 
@@ -321,12 +325,21 @@ hr {
     font-size: 3.5rem;
   }
   .navbar {
-    gap: 2px;
+    gap: 1px;
+  }
+  .navbar li {
+    font-size: 2rem;
+    padding: 2px;
   }
   header p {
     display: none;
   }
   .projects ul li {
     width: 90%;
+  }
+  .skills ul li {
+    width: 100px;
+    font-size: 1.8rem;
+    padding: 5px;
   }
 }
