@@ -50,3 +50,14 @@ const observer = new IntersectionObserver(
 document.querySelectorAll(".box").forEach((el) => {
   observer.observe(el);
 });
+
+document.addEventListener("scroll", () => {
+  if (document.documentElement.scrollTop > window.innerHeight) {
+    backButton.style.display = "block";
+  } else {
+    backButton.style.display = "none";
+  }
+});
+
+console.log(window.innerHeight);
+console.log(document.documentElement.scrollTop);
