@@ -10,7 +10,7 @@ It presents my skills, projects, and contact information in a clean and responsi
 - Project previews with descriptions  
 
 ## Demo
-🔗 [Live Demo] [https://your-deployed-link.com](https://resume-mu92.vercel.app/)
+🔗 [Live Demo] [(https://resume-mu92.vercel.app/)]
 
 ## Technologies
 - HTML5  
